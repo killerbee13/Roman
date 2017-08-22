@@ -1,0 +1,5 @@
+#!/bin/sed -f 
+:loop
+s/(/\\[\\overline{\\mbox{/g
+s/)/}}\\]/g
+t loop

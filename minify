@@ -1,0 +1,4 @@
+#!/bin/sed -f 
+:loop
+s/)(//g
+t loop
